@@ -34,4 +34,4 @@ Props
         ></Timer>
         
         
-        ![Timer Image](http://assets/Timer.png)
+        ![Timer Image](https://github.com/ManjotKaur97/ReactNative-Timer/blob/master/assets/Timer.png)

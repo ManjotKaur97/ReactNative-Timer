@@ -8,67 +8,51 @@
 
 import React from 'react';
 import {
-  SafeAreaView,
+
   StyleSheet,
-  ScrollView,
+
   View,
   Text,
-  StatusBar,
 } from 'react-native';
-
-import {
-  Header,
-  LearnMoreLinks,
-  Colors,
-  DebugInstructions,
-  ReloadInstructions,
-} from 'react-native/Libraries/NewAppScreen';
-
+import Timer from './src/screens/Timer'
 const App: () => React$Node = () => {
   return (
-    <View>
-      <Text>Timer</Text>
+    <View style={{
+      backgroundColor:'black',
+      flex:1,
+      flexGrow:1,
+      justifyContent:'center',
+      alignItems:'center'
+    }}>
+
+      <Timer
+        size={150}
+        strokeWidth={15}
+        duration = {50}
+        color = {'grey'}
+        strokeColor = {'#ffbf00'}
+        fill = {"black"}
+        fillOpacity={0.5}
+        onTimerElapsed = {()=>{console.log('timer finished')}}
+        onClickOption = {()=>{console.log('click option')}}
+        noOfRotations ={1}
+        firstText={true}
+        firstTextColor={'white'}
+        firstTextString={'BIG'}
+        firstTextSize={25}
+        firstX={58}
+        firstY={70}
+        secondText={false}
+        secondTextColor={'white'}
+        secondTextString={'BLIND'}
+        secondTextSize={18}
+        secondX={40}
+        secondY={70}
+        ></Timer>
     </View>
  );
 };
 
-const styles = StyleSheet.create({
-  scrollView: {
-    backgroundColor: Colors.lighter,
-  },
-  engine: {
-    position: 'absolute',
-    right: 0,
-  },
-  body: {
-    backgroundColor: Colors.white,
-  },
-  sectionContainer: {
-    marginTop: 32,
-    paddingHorizontal: 24,
-  },
-  sectionTitle: {
-    fontSize: 24,
-    fontWeight: '600',
-    color: Colors.black,
-  },
-  sectionDescription: {
-    marginTop: 8,
-    fontSize: 18,
-    fontWeight: '400',
-    color: Colors.dark,
-  },
-  highlight: {
-    fontWeight: '700',
-  },
-  footer: {
-    color: Colors.dark,
-    fontSize: 12,
-    fontWeight: '600',
-    padding: 4,
-    paddingRight: 12,
-    textAlign: 'right',
-  },
-});
+
 
 export default App;

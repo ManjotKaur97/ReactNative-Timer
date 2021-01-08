@@ -34,8 +34,8 @@ Props
         ></Timer>
         
         
-        <p align="center">
-  <img src="yttps://github.com/ManjotKaur97/ReactNative-Timer/blob/master/assets/Timer.png" width="350" title="hover text">
-</p>
+
+  <img src="yttps://github.com/ManjotKaur97/ReactNative-Timer/blob/master/assets/Timer.png" width="500" >
+
         
         ![Timer Image](https://github.com/ManjotKaur97/ReactNative-Timer/blob/master/assets/Timer.png)

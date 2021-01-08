@@ -2,14 +2,14 @@
 
 Working React Native Timer is uploaded on master branch.
 
-React libraries used
+# React libraries used
 @react-native-svg
 Install it from npm i react-native-svg
 It is used to create circles and do animation on them.
 
 
-Props
-  <Timer
+# Props
+
         size={150} // size of timer circle
         strokeWidth={15} // radius for stroke
         duration = {50} // duration in seconds
@@ -31,7 +31,7 @@ Props
         secondTextSize={18} //  text size
         secondX={40} //  x-axis for text
         secondY={70} //  y-axis for text
-        ></Timer>
+
         
         
 

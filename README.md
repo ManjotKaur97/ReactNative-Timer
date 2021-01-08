@@ -35,7 +35,7 @@ Props
         
         
 
-  <img src="yttps://github.com/ManjotKaur97/ReactNative-Timer/blob/master/assets/Timer.png" width="500" >
 
         
-        ![Timer Image](https://github.com/ManjotKaur97/ReactNative-Timer/blob/master/assets/Timer.png)
+![Timer](https://user-images.githubusercontent.com/76818252/104054939-f7ca0400-5213-11eb-9b57-1bd76aba0b4c.png)
+

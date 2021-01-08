@@ -34,4 +34,4 @@ Props
         ></Timer>
         
         
-        ![Timer Image](http://url/to/img.png)
+        ![Timer Image](http://assets/Timer.png)

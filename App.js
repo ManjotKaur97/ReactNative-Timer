@@ -1,15 +1,31 @@
-# ReactNative-Timer
+/**
+ * Sample React Native App
+ * https://github.com/facebook/react-native
+ *
+ * @format
+ * @flow strict-local
+ */
 
-Working React Native Timer is uploaded on master branch.
+import React from 'react';
+import {
 
-# React libraries used
-@react-native-svg
-Install it from npm i react-native-svg
-It is used to create circles and do animation on them.
+  StyleSheet,
 
+  View,
+  Text,
+} from 'react-native';
+import Timer from './src/screens/Timer'
+const App: () => React$Node = () => {
+  return (
+    <View style={{
+      backgroundColor:'black',
+      flex:1,
+      flexGrow:1,
+      justifyContent:'center',
+      alignItems:'center'
+    }}>
 
-# Props
-
+      <Timer
         size={150} // size of timer circle
         strokeWidth={15} // radius for stroke
         duration = {50} // duration in seconds
@@ -31,11 +47,11 @@ It is used to create circles and do animation on them.
         secondTextSize={18} //  text size
         secondX={40} //  x-axis for text
         secondY={70} //  y-axis for text
+        ></Timer>
+    </View>
+ );
+};
 
-        
-        
 
 
-        
-![Timer](https://user-images.githubusercontent.com/76818252/104054939-f7ca0400-5213-11eb-9b57-1bd76aba0b4c.png)
-
+export default App;
